@@ -8,7 +8,7 @@
 
 * Renomeio esse arquivo para file2.txt
 
-* Por uma linha de comando copiei as 3 primeiras linhas do file1.txt e ensira
+* Por uma linha de comando copiei as 3 primeiras linhas do file1.txt e insira
 no file2.txt, depois com outra linha de comando pegue as 2 ultimas linhas do
 file1.txt e concatene no file2.txt.
 
