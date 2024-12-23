@@ -1,0 +1,59 @@
+Comandos Linux
+
+ls: Comando de listagem (lista todos os arquivos do diretório)
+
+man: Abrir o manual de algum comando citado
+< comando > --help: Resumão do que o comando pode realizar
+
+clear: Limpar o terminal (Crtl + L)
+
+mkdir: Criar diretório (para colocar nomes com espaço, deve-se colocar entre aspas)
+tecla TAB: Autocompletar as informações
+
+cd: Navegar dentro de uma pasta
+
+pwd: Mostrar o caminho completo
+
+whoami: Revela o nome do usuário atual
+
+touch: Criar um arquivo vazio (ou, toque no arquivo já existente)
+
+nano: Editar arquivos via terminal (para salvar: ctrl + o, para fechar ctrl + x)
+
+cat: Exibir o conteúdo de arquivos
+
+mv: Mover ou renomear arquivos e diretórios
+
+cp: Copiar arquivos e diretórios
+
+cd .. : Voltar para pasta ou diretório anterior
+
+find: Procurar arquivos e diretórios em uma hierarquia de diretórios
+
+rm: Remover arquivos ou diretórios
+
+rmdir: Apagar algum diretório
+
+rm -rf: Remover arquivos e diretórios de forma recursiva e forçada
+
+hostname: Exibir o nome da sua máquina
+
+hostname -I: Exibir o endereço(s) IP da máquina no formato de uma lista
+
+ip a: Exibir as informações de rede de todas as interfaces de rede do sistema
+
+ping google.com: Utilizado para testar a conectividade com o servidor do Google
+
+ctrl + c: Pode cancelar qualquer comando no terminal
+
+history: Histórico com todos os comandos
+
+.. :Voltar para pasta anterior
+
+. :Mandar para pasta atual
+
+echo "exemplo" > exemplo.txt:Cria ou substitui um arquivo com o conteudo pedido
+
+> :Direcionador de fluxo
+
+echo "exemplo" >> exemplo.txt:Adicionar o conteúdo ao final de um arquivo
