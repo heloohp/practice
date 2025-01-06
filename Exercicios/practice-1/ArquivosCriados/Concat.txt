@@ -1,0 +1,109 @@
+1. Snapshots do seu trabalho
+- Commit é como tirar uma foto do estado atual do seu código. Se algo der errado, você pode sempre voltar para aquele ponto.
+- Cada commit tem um hash único, que é como o "DNA" daquele momento no código.
+
+2. Branches: a magia do paralelismo
+- Trabalhar com branches permite criar "linhas do tempo" separadas para diferentes funcionalidades ou ideias.
+- O branch main (ou master) geralmente é o principal, mas você pode criar branches como feature/login, bugfix/header, etc., para isolar mudanças.
+- Dica: Use git checkout -b nome-do-branch para criar e mudar de branch em um único comando!
+
+3. Merge e rebase são seus amigos (se usados com cuidado!)
+- Merge combina mudanças de um branch para outro, preservando o histórico.
+- Rebase é como "reescrever" o histórico para mantê-lo mais limpo e linear.
+- Mantenha o main sempre limpo e atualizado antes de fazer merges!
+
+4. Staging area: um filtro antes do commit
+- Antes de um commit, o código passa pela staging area (usando git add). Isso permite preparar apenas as mudanças que você quer salvar.
+- Dica: Use git add -p para revisar pedaços de mudanças antes de adicioná-los.
+
+5. Histórico é ouro
+- Use git log para ver o histórico de commits. Adicione --oneline para um resumo mais limpo.
+- Precisa saber quem alterou uma linha específica de código? Use git blame nome-arquivo.
+
+6. Voltando no tempo
+- Comandos como git checkout (ou git switch) e git reset permitem navegar no tempo do seu projeto.
+- Precisa só de uma versão antiga de um arquivo? Use git checkout hash-commit -- caminho/arquivo.
+
+7. Sincronização com o time
+- Use git fetch para atualizar seu repositório local com o remoto, sem misturar mudanças ainda.
+- Sempre pull antes de começar a trabalhar, para evitar conflitos desnecessários.
+
+8. gitignore: silêncio no caos
+- Adicione um arquivo .gitignore para listar arquivos ou pastas que você não quer incluir no controle de versão, como arquivos de configuração local ou logs.
+
+9. Repositórios remotos: backup e colaboração
+- GitHub, GitLab e Bitbucket são exemplos de plataformas para compartilhar seu código e colaborar com o time.
+- Use git remote -v para verificar com quais repositórios remotos você está conectado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comandos Linux
+
+ls: Comando de listagem (lista todos os arquivos do diretório)
+
+man: Abrir o manual de algum comando citado
+< comando > --help: Resumão do que o comando pode realizar
+
+clear: Limpar o terminal (Crtl + L)
+
+mkdir: Criar diretório (para colocar nomes com espaço, deve-se colocar entre aspas)
+tecla TAB: Autocompletar as informações
+
+cd: Navegar dentro de uma pasta
+
+pwd: Mostrar o caminho completo
+
+whoami: Revela o nome do usuário atual
+
+touch: Criar um arquivo vazio (ou, toque no arquivo já existente)
+
+nano: Editar arquivos via terminal (para salvar: ctrl + o, para fechar ctrl + x)
+
+cat: Exibir o conteúdo de arquivos
+
+mv: Mover ou renomear arquivos e diretórios
+
+cp: Copiar arquivos e diretórios
+
+cd .. : Voltar para pasta ou diretório anterior
+
+find: Procurar arquivos e diretórios em uma hierarquia de diretórios
+
+rm: Remover arquivos ou diretórios
+
+rmdir: Apagar algum diretório
+
+rm -rf: Remover arquivos e diretórios de forma recursiva e forçada
+
+hostname: Exibir o nome da sua máquina
+
+hostname -I: Exibir o endereço(s) IP da máquina no formato de uma lista
+
+ip a: Exibir as informações de rede de todas as interfaces de rede do sistema
+
+ping google.com: Utilizado para testar a conectividade com o servidor do Google
+
+ctrl + c: Pode cancelar qualquer comando no terminal
+
+history: Histórico com todos os comandos
+
+.. :Voltar para pasta anterior
+
+. :Mandar para pasta atual
+
+echo "exemplo" > exemplo.txt:Cria ou substitui um arquivo com o conteudo pedido
+
+> :Direcionador de fluxo
+
+echo "exemplo" >> exemplo.txt:Adicionar o conteúdo ao final de um arquivo
