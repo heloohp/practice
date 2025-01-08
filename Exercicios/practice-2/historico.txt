@@ -1,0 +1,12 @@
+
+ 1479  cd practice-2
+ 1480  ls
+ 1481  mv fileeeeee2.txt file2.txt
+ 1482  head -n 3 file1.txt > file2.txt
+ 1483  tail -n 2 file1.txt > file2.txt
+ 1484  head -n 3 file1.txt > file2.txt
+ 1485  tail -n 2 file1.txt >> file2.txt
+ 1486  grep -v '1' file2.txt > temp && mv temp file2.txt
+ 1487  date
+ 1488  history | grep "$(date '+%b %d')" > historico.txt
+ 1489 history | grep "$(date Qua  8 Jan 2025)" > historico.txt
