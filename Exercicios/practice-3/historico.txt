@@ -1,0 +1,15 @@
+ 1537  mkdir practice-3
+ 1538  ls
+ 1539  cd practice-3
+ 1540  seq 500 1500 > file1.txt
+ 1541  ls
+ 1542  cat file1.txt
+ 1543  clear
+ 1544  ls
+ 1545  seq 0 499 > file2.txt
+ 1546  ls
+ 1547  seq 1450 2000 > file3.txt
+ 1548  ls
+ 1549  cat file2.txt file1.txt file3.txt >> zero_ate_2000.txt
+ 1550  rm zero_ate_2000.txt
+ 1551  cat file2.txt file1.txt file3.txt | sort -n -u  >> zero_ate_2000.txt
