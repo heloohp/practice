@@ -1,0 +1,10 @@
+ 1582  curl -O https://www.gnu.org/licenses/agpl-3.0.txt
+ 1583  wc -l agpl-3.0.txt
+ 1584  grep -A 45 "END OF TERMS AND CONDITIONS" agpl-3.0.txt > end.txt
+ 1586  cd end.txt
+ 1588  grep -oi "license" agpl-3.0.txt | wc -l 
+ 1593  grep -A 9 "Acceptance Not Required for Having Copies" agpl-3.0.txt
+ 1608  grep -A 9 "Acceptance Not Required for Having Copies" agpl-3.0.txt > secoes_importantes.txt
+ 1611  grep -A 9 "Disclaimer of Warranty" agpl-3.0.txt >> secoes_importantes.txt
+ 1612  grep -A 18 "Limitation of Liability" agpl-3.0.txt >> secoes_importantes.txt
+ 1613   history 1582 1613 > historico.txt
